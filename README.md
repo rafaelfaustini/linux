@@ -165,3 +165,9 @@ locate zip | grep bin
 ```
 - Lista todos os arquivos e diretórios com "zip" e "bin" em seu nome.
 <br>
+
+```
+find / -type d -name "diretorio"
+```
+- Procura um diretório de nome diretorio na pasta home
+<br>
