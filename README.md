@@ -71,7 +71,7 @@ find / -name "*.txt" -size -2M
 <br>
 
 ```
-find documento/ -name "*.txt" -size 235K
+find documento/ -name "*.txt" -size 235k
 ```
 - Procura por todos os arquivos .txt com tamanho igual a 235 Kb em documento
 <br>
