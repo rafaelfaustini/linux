@@ -68,3 +68,27 @@ find documento/ -name "*.txt" -size 235K
 ```
 - Procura por todos os arquivos .txt com tamanho igual a 235 Kb em documento
 <br>
+
+```
+tail -n 2 README.md
+```
+- Mostra as duas últimas linhas do arquivo README.md
+<br>
+
+```
+head -n 2 README.md
+```
+- Mostra as duas primeiras linhas do arquivo README.md
+<br>
+
+```
+tail -n 5 result.log > latest.log
+```
+- Salva as 5 últimas linhas do arquivo result.log num arquivo latest.log
+<br>
+
+```
+tail -n 5 rafael{1..3}.txt > fim.txt
+```
+- Salva as 5 últimas linhas de cada um dos arquivos rafael1.txt, rafael2.txt, rafael3.txt num arquivo fim.txt
+<br>
