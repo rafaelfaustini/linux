@@ -171,3 +171,21 @@ find / -type d -name "diretorio"
 ```
 - Procura um diretório de nome diretorio na pasta home
 <br>
+
+```
+tail -n 4 access.log
+```
+- Mostra as últimas 4 linhas do arquivo access.log
+<br>
+
+```
+cp rafael{1..3}.txt pasta2
+```
+- Copia os arquivos rafael1.txt, rafael2.txt e rafael3.txt do diretório atual para pasta2
+<br>
+
+```
+find -name "pasta?" -type d | wc -c
+```
+- Procura pastas com nome pasta + qualquer caractere e mostra a quantidade de resultados (Se existe pasta1, pasta2, pastaN, ele retornará 3)
+<br>
