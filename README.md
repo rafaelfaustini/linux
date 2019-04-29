@@ -55,25 +55,37 @@ pwd
 ```
 find / -name "*.txt" -size +10M
 ```
-- Procura por todos os arquivos .txt com tamanho maior que 10 Mb na home
+- Procura por todos os arquivos .txt com tamanho maior que 10 MB na home
 <br>
 
 ```
 find . -name "*.txt" -size +10M
 ```
-- Procura por todos os arquivos .txt com tamanho maior que 10 Mb no diretório atual
+- Procura por todos os arquivos .txt com tamanho maior que 10 MB no diretório atual
 <br>
 
 ```
 find / -name "*.txt" -size -2M
 ```
-- Procura por todos os arquivos .txt com tamanho menor que 2 Mb na home
+- Procura por todos os arquivos .txt com tamanho menor que 2 MB na home
 <br>
 
 ```
 find documento/ -name "*.txt" -size 235k
 ```
-- Procura por todos os arquivos .txt com tamanho igual a 235 Kb em documento
+- Procura por todos os arquivos .txt com tamanho igual a 235 KB em documento
+<br>
+
+```
+find documento/ -name "*.iso" -size +2G
+```
+- Procura por todos os arquivos .iso com tamanho maior que 2 GB na pasta documento
+<br>
+
+```
+find ~ -size 150c
+```
+- Procura por todos os arquivos com tamanho igual a 150 na home
 <br>
 
 ```
@@ -146,4 +158,10 @@ find mmin -5
 find amin +5
 ```
 - Localiza arquivos acessados pela ultima vez a pelo menos 5 dias
+<br>
+
+```
+locate zip | grep bin
+```
+- Lista todos os arquivos e diretórios com "zip" e "bin" em seu nome.
 <br>
