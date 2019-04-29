@@ -85,7 +85,7 @@ find documento/ -name "*.iso" -size +2G
 ```
 find ~ -size 150c
 ```
-- Procura por todos os arquivos com tamanho igual a 150 na home
+- Procura por todos os arquivos com tamanho igual a 150 bytes na home
 <br>
 
 ```
@@ -188,4 +188,10 @@ cp rafael{1..3}.txt pasta2
 find -name "pasta?" -type d | wc -c
 ```
 - Procura pastas com nome pasta + qualquer caractere e mostra a quantidade de resultados (Se existe pasta1, pasta2, pastaN, ele retornará 3)
+<br>
+
+```
+rm rafael{1..3}.txt
+```
+- Remove os arquivos rafael1.txt, rafael2.txt, rafael3.txt
 <br>
