@@ -1,8 +1,8 @@
-# linux
+# Linux
 Minhas anotações sobre linux
 
 
-# Exemplos de Comandos
+# Exemplos de Comandos Bash
 ```
 cat arquivo.txt
 ```
