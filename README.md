@@ -34,6 +34,13 @@ mv listas/rafael{1..10}.txt .
 <br>
 
 ```
+cp listas/rafael{1..10}.txt .
+```
+- Copia todos os arquivos rafael1.txt, rafael2.txt, ... , rafael10.txt para o diretório atual
+<br>
+
+
+```
 python teste.py > resultado.log
 ```
 - Direciona a saída do programa teste.py para o arquivo resultado.log
@@ -91,4 +98,52 @@ tail -n 5 result.log > latest.log
 tail -n 5 rafael{1..3}.txt > fim.txt
 ```
 - Salva as 5 últimas linhas de cada um dos arquivos rafael1.txt, rafael2.txt, rafael3.txt num arquivo fim.txt
+<br>
+
+```
+mkdir rafael{1..3}
+```
+- Cria os diretórios, rafael1, rafael2, rafael3
+<br>
+
+```
+tac relatorio.txt
+```
+- Mostra o relatório de baixo para cima (As ultimas linhas são as primeiras e as primeiras as últimas)
+<br>
+
+```
+touch -t 03201600 meuarquivo
+```
+- Isso define o arquivo, meuarquivo, timestamp para 4 p.m., 20 de março (03 20 1600).
+<br>
+
+```
+find -name "*.swp" -exec rm {} ';'
+```
+- Localiza e remove todos os arquivos que terminam com .swp
+<br>
+
+```
+find -amin -5
+```
+- Localiza arquivos acessados nos ultimos 5 minutos
+<br>
+
+```
+find -cmin -5
+```
+- Localiza arquivos modificados nos ultimos 5 dias
+<br>
+
+```
+find mmin -5
+```
+- Localiza arquivos acessados nas ultimas 5 semanas
+<br>
+
+```
+find amin +5
+```
+- Localiza arquivos acessados pela ultima vez a pelo menos 5 dias
 <br>
