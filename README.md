@@ -10,9 +10,9 @@ cat arquivo.txt
 <br>
 
 ```
-ls ~ 1R > lista.txt
+ls ~ -1R > lista.txt
 ```
-- Lista os diretórios e arquivos da home e salva o resultado no arquivo lista.txt
+- Lista os diretórios , subdiretórios e arquivos salva o resultado no arquivo lista.txt
 <br>
 
 ```
