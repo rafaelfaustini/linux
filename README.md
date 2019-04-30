@@ -195,3 +195,6 @@ rm rafael{1..3}.txt
 ```
 - Remove os arquivos rafael1.txt, rafael2.txt, rafael3.txt
 <br>
+
+## Shell Scripting
+
